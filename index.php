@@ -22,27 +22,9 @@ if(isset($_GET['page'])) {
 }
 
 
-
-// switch ($_GET['page']) {
-//     case 'main':
-//         include 'pages/main.php';
-//         break;
-    
-//     case 'cart':
-//         include 'pages/cart.php';
-//         break;
-
-//     case 'about':
-//         include 'pages/about.php';
-//         break;
-
-//     default:
-//         include 'pages/error.php';
-//         break;
-// }
+/* вырезанный свитч для тест-коммита */
 
 
- 
 require 'views/footer.php'; //Футер нашего сайта
 
 
