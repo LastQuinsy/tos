@@ -44,3 +44,6 @@ if(isset($_GET['page'])) {
 
  
 require 'views/footer.php'; //Футер нашего сайта
+
+
+/* изменения для тест-коммита */
