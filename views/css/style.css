@@ -1,0 +1,122 @@
+/**
+* a b c d e f g h i j k l m n o p q r s t u v w x y z
+*/
+
+html,
+body {
+    font-size: 14px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    z-index: 0;
+}
+/**
+* Обертка
+*/
+#wrapper{
+    background-color: #99dd99;
+    margin: 0 auto -200px auto;
+    min-height: 100%;
+    min-width: 100%;
+
+}
+#wrapper:after {
+    background-color: #99dd99;
+    content: "";
+    display: block;
+    height: 200px;
+    min-width: 812px;
+}
+/**
+* верхнее меню
+*/
+.main-menu-wrapper{
+    background-color: #2D2D2D;
+    width: 100%;
+}
+.main-menu{
+    background-color: inherit;
+    margin: 0 auto;
+    max-width: 1300px;
+    min-height: 50px;
+    min-width: 812px;
+    padding: 0;
+    z-index: 999;
+}
+.menu-right{
+    float: right;
+}
+ul{
+    background-color: inherit;
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    background-color: inherit;
+    display: inline-block;
+}
+li a:before{
+    content: "";
+    display: block;
+    height: 12px;
+}
+li a{
+    background-color: inherit;
+    color: #FFFFFF;
+    display: block;
+    font: 20px bold;
+    height: 50px;
+    padding: 0 15px;
+    text-align: center;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #000000;
+}
+/**
+* main-menu
+*/
+.cart{
+    padding: 0 20px 0 85px;
+    background: url('/views/images/cart.png') 20px center no-repeat;
+}
+.homepage{
+    padding-left: 85px;
+    background: url('/views/images/logo.png') 20px center no-repeat;
+}
+.item{
+    background-color: #f0f0f0;
+    border-radius: 3px;
+    box-shadow: 2px 5px 50px #0000ff;
+    display: inline-table;
+    height: 200px;
+    margin: 10px 30px;
+    width: 250px;
+}
+.main{
+    display: table;
+}
+/**
+* главный контент
+*/
+.content{
+    background-color: inherit;
+    margin: 0 auto;
+    max-width: 1260px;
+    min-width: 772px;
+    min-height: inherit;
+    padding: 10px 20px;
+    text-align: justify;
+}
+/**
+* футер
+*/
+#footer{
+    background: #ACACAC;
+    height: 200px;
+    min-width: 812px;
+}
